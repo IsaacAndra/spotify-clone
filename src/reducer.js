@@ -8,7 +8,7 @@ export const initialState = {
 };
 
 const reducer = (state, action) => {
-
+    console.log(action.discover_weekly);
     console.log(action);
     switch(action.type) {
         case 'SET_USER':
@@ -29,16 +29,15 @@ const reducer = (state, action) => {
                     playlists: action.playlists,
                 };
 
-            case 'MIX_DESCOBERTAS_DA_SEMANA':
+            case 'SET_DISCOVER_WEEKLY':
                 return {
                     ...state,
-                    mix_descobertas_da_semana: action.mix_descobertas_da_semana,
+                    discover_weekly: action.discover_weekly,
                 }
-
+                
             default:
                 return state;
     }
-
 
 }
 
