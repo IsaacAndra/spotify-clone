@@ -11,7 +11,7 @@ const spotify = new SpotifyWebApi();
 
 function App() {
 
-  const [{ user, token }, dispatch] = useDataLayerValue();
+  const [{ token }, dispatch] = useDataLayerValue();
   
   //Roda o código baseado em uma condição
   useEffect(() => {
@@ -42,10 +42,10 @@ function App() {
         });
       });
 
-      spotify.getPlaylist("2lOo9eujtLdc5vBefohNih").then(response => {
+      spotify.getPlaylist('37i9dQZEVXcNhZHqlBTQAp').then(response => {
         dispatch({
-          type: 'SET_DESCOBERTAS_DA_SEMANA',
-          descobertas_da_semana: response,
+          type: 'SET_DISCOVER_WEEKLY',
+          discover_weekly: response,
     });
       })
     }
