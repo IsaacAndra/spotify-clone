@@ -5,30 +5,35 @@ import Header from './Header';
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import SongRow from './SongRow';
 
 function Body() {
 
-  const [{ mix_descobertas_da_semana }, dispatch] = useDataLayerValue();
+  const [{ discover_weekly }] = useDataLayerValue();
 
   return (
     <div className='body'>
         <Header /> 
 
         <div className='body__info'>
-          <img src={mix_descobertas_da_semana?.images[0].url} alt='' />
+          <img src={discover_weekly?.images[0].url} alt={discover_weekly?.name} />
           <div className='body__infoText'>
             <strong>PLAYLIST</strong>
-            <h2>Discover Weekly</h2>
-            <p>{mix_descobertas_da_semana?.description}</p>
+            <h2>{discover_weekly?.name}</h2>
+            <p>{discover_weekly?.description}</p>
           </div>
         </div>
 
         <div className='body__songs'>
-          <div className='body__ icons'>
-            <PlayCircleFilledIcon className='body__Shuffle'/>
+          <div className='body__icons'>
+            <PlayCircleFilledIcon className='body__shuffle'/>
             <FavoriteIcon fontSize='large'/>
             <MoreHorizIcon />
           </div>
+
+          {discover_weekly?.tracks.items.map((item) => (
+            <SongRow track={item.track} />
+          ))}
 
         </div>
     </div>
