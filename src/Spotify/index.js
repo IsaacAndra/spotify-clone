@@ -1,5 +1,5 @@
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
-const redirectUri = 'https://spotify-clone-one-jet.vercel.app/';
+const redirectUri = 'http://spotify-clone-one-jet.vercel.app/';
 const clientId = '4391660d63fa4e8a8e509e351c4e7047';
 const scopes = [
     'user-read-currently-playing',
