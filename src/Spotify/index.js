@@ -4,9 +4,9 @@ const clientId = '4391660d63fa4e8a8e509e351c4e7047';
 const scopes = [
     'user-read-currently-playing',
     'user-read-recently-played',
-    'user-read-playback-state',
     'user-top-read',
     'user-modify-playback-state',
+    'user-read-playback-state',
 ];
 
 export const getTokenFromUrl = () => {
