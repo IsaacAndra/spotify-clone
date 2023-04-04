@@ -16,7 +16,7 @@ Nela, contém informações sobre playlists e como sessão principal, a playlist
 - React
 
 ## Como usar
-1. Acesse o site [Aqui](spotify-clone-one-jet.vercel.app).
+1. Acesse o site [Aqui](https://spotify-clone-one-jet.vercel.app/).
 2. Clique no botão para fazer login com o Spotify.
 3. Faça o login no Spotify.
 4. Autorize a autenticação.
