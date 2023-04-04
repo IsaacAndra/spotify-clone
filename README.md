@@ -1,6 +1,6 @@
 # Spotify Clone
 
-Esta é uma página é uma página clone do spotify, onde o objetivo era aprender mais sobre a API do spotify e como implementar seus elementos dentro de uma aplicação.
+Esta é uma página clone do spotify, onde o objetivo era aprender mais sobre a API do spotify e como implementar seus elementos dentro de uma aplicação.
 Nela, contém informações sobre playlists e como sessão principal, a playlist 'Descobertas da Semana', na qual se o usuário estiver com o aplicativo do Spotify aberto, poderá interagir com o botão de 'Play'.
 
 ## Recursos
