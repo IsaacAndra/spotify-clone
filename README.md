@@ -26,4 +26,4 @@ Nela, contém informações sobre playlists e como sessão principal, a playlist
 PS: Este projeto foi desenvolvido para portifólio, qualquer dado informado nos campos, não serão salvos em bancos de dados.
 
 ## Feedback
-Se você tiver alguma dúvida ou sugestão, por favor, entre em contato. Ficarei feliz em ajudá-lo.
+Se você tiver alguma dúvida ou sugestão, por favor, entre em contato. Ficarei feliz em ajudá-lo...
