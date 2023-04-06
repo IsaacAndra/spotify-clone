@@ -7,7 +7,7 @@ Nela, contém informações sobre playlists e como sessão principal, a playlist
 - Autenticação de usuário Spotify.
 - Informações sobre playlists do usuário.
 - Informações sobre a Playlist 'Descobertas da semana' do usuário.
-- Interação com o aplicativo do Spotify.;
+- Interação com o aplicativo do Spotify.
 
 ## Tecnologias usadas
 - HTML
